@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fastScrollEnabled="true">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:focusable="true"
+	        android:gravity="center"
+	        android:text="@string/resultDescription" />
+
+		<ImageView
+		    android:id="@+id/iv"
+		    android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:adjustViewBounds="true"
+		    android:scaleType="fitCenter"
+		    android:src="@drawable/internet_radio" />
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:focusable="true"
+	        android:gravity="center"
+	        android:text="@string/resultText"/>
+		<TextView
+	    	android:id="@+id/affiliate_link1"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:autoLink="web"
+	    	/>
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:focusable="true"
+	        android:layout_gravity="center"
+	        android:text="@string/newline"/>
+		<TextView
+	    	android:id="@+id/affiliate_link2"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:autoLink="web"
+	    	/>
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:focusable="true"
+	        android:layout_gravity="center"
+	        android:text="@string/newline"/>
+		<TextView
+	    	android:id="@+id/affiliate_link3"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:autoLink="web"
+	    	/>
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:focusable="true"
+	        android:layout_gravity="center"
+	        android:text="@string/newline"/>
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:focusable="true"
+	        android:layout_gravity="center"
+	        android:text="@string/resultCaution"
+	        android:textColor="#FF0000"/>
+	    <Button
+	        android:id="@+id/nextButton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/nextButton"/>
+	    
+	</LinearLayout>
+</ScrollView>
